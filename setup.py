@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 with open(
-    os.path.join(os.path.dirname(__file__), "lib", "sqlalchemy", "__init__.py")
+    os.path.join(os.path.dirname(__file__), "lib", "sqlalchemymonitor", "__init__.py")
 ) as v_file:
     VERSION = (
         re.compile(r""".*__version__ = ["'](.*?)['"]""", re.S)
