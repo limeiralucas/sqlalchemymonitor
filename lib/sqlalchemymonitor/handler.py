@@ -1,3 +1,5 @@
+import logging
+
 class SqlAchemyLogHandler(logging.Handler):
     def __init__(self):
         super().__init__()
